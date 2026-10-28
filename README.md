@@ -3,7 +3,7 @@
 Rezolvari: 
 - [Lab 1](1/1.md)
 
-<!-- - [Lab 2](2/2.md)
+- [Lab 2](2/2.md)
 
 - [Lab 3](3/3.md)
 

@@ -48,7 +48,7 @@ if __name__ == '__main__':
     print(f'Diff: {diff}')
 
     tol = 1e-5
-    if diff < tol:
+    if np.abs(diff) < tol:
         print(f'Matching eigenvals! (tol: {tol})')
 
 
