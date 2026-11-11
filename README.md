@@ -5,9 +5,9 @@ Rezolvari:
 
 - [Lab 2](2/2.md)
 
-<!-- - [Lab 3](3/3.md)
+- [Lab 3](3/3.md)
 
-- [Lab 4](4/4.md)
+<!-- - [Lab 4](4/4.md)
 
 - [Lab 5](5/5.md)
 

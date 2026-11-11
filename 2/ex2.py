@@ -5,7 +5,6 @@ import matplotlib.pyplot as plt
 
 from ex1 import power_eigen_values
 
-
 def checks(G):
     # Calculate eigenvalues
     dom_eig_vec = power_eigen_values(G, 1e-9, 1000)
