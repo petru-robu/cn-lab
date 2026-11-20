@@ -37,6 +37,7 @@ if __name__ == '__main__':
     # valorile singulare care sunt neglijabile sunt cele care sunt 
     # neglijabile in raport cu zgomotul, pentru zgomot gauassian putem 
     # compara cu std*(sqrt(m) + sqrt(n)) 
+    # https://math.stackexchange.com/questions/4568034/the-largest-eigenvalue-of-a-singular-random-matrix
  
     thr = disp * (np.sqrt(m) + np.sqrt(n))
     real_rank = np.sum(S > thr)
