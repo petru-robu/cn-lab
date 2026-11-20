@@ -12,7 +12,7 @@ if __name__ == '__main__':
     U, S, Vt = np.linalg.svd(A)
     print(f'Valorile singulare: {S}\nShape: {S.shape}') 
 
-    for k in [1, 3, 5, 10, 25, 50, 100]:
+    for k in [1, 3, 5, 10, 15, 25, 50, 100]:
         aprox = U[:, 0:k] @ np.diag(S[:k]) @ Vt[0:k, :]
 
         str = f'rank_{k}_aprox'

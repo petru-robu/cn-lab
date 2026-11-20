@@ -36,8 +36,8 @@ if __name__ == '__main__':
     # recuperam rangul real
     # valorile singulare care sunt neglijabile sunt cele care sunt 
     # neglijabile in raport cu zgomotul, pentru zgomot gauassian putem 
-    # compara cu std*(sqrt(m) + sqrt(n))
-
+    # compara cu std*(sqrt(m) + sqrt(n)) 
+ 
     thr = disp * (np.sqrt(m) + np.sqrt(n))
     real_rank = np.sum(S > thr)
     print(f'Rangul recuperat: {real_rank}') # pe langa 4 (rangul corect), obtin cateodata si 3 si 2
