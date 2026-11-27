@@ -17,8 +17,8 @@ if __name__ == '__main__':
     print(A_train.shape, A_test.shape)
     print(y_test.shape)
 
+    # ------ LINEAR ------
     print('With linear kernel: ')
-
     clf = SVC(kernel='linear')
     clf.fit(A_train, y_train)
     y_pred = clf.predict(A_test)
@@ -36,8 +36,8 @@ if __name__ == '__main__':
     print('Classes: ', cls)
     print('Conf matrix: \n', conf_matrix)
 
+    # -------- RBF --------
     print('With RBF kernel: ')
-
     clf = SVC(kernel='rbf')
     clf.fit(A_train, y_train)
     y_pred = clf.predict(A_test)
